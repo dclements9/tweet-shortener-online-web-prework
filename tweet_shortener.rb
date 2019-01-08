@@ -2,7 +2,7 @@ require 'pry'
 
 def dictionary
 
-dictionary = {
+dictionary_hash = {
     "hello" => "hi",
     "to" => '2',
     "two" => '2',
