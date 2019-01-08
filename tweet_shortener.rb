@@ -1,10 +1,10 @@
 def dictionary
 
 dictionary_hash = {
-    "hello" => "hi", 
+    "hello" => "hi",
     "to" => '2',
-    "two" => '2', 
-    "too" => '2',  
+    "two" => '2',
+    "too" => '2',
     "for" => '4',
     "four" => '4',
     "be" => 'b',
@@ -13,6 +13,6 @@ dictionary_hash = {
     "and" => "&"}
 end
 
-def word_substituter(tweet_string)
-  
+def word_substituter(tweet)
+
 end
