@@ -17,7 +17,5 @@ end
 
 def word_substituter(tweet_string)
   tweet_array = tweet_string.split
-  binding.pry
-end
 
-word_substituter("Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!")
+end
