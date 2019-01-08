@@ -16,7 +16,7 @@ dictionary_hash = {
 end
 
 def word_substituter(tweet_string)
-  tweet_array = tweet_string.to_a
+  tweet_array = tweet_string.split
   binding.pry
 end
 
