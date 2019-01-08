@@ -19,7 +19,7 @@ def word_substituter(tweet_string)
   tweet_array = tweet_string.split
       tweet_array.map do |word|
     if dictionary.keys.include?(word)
-      word = dictionary.values_at(word)
+      word = dictionary[word]
     else
       word
   end
