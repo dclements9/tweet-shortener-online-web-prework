@@ -2,7 +2,7 @@ require 'pry'
 
 def dictionary
 
-dictionary_hash = {
+dictionary = {
     "hello" => "hi",
     "to" => '2',
     "two" => '2',
@@ -18,8 +18,8 @@ end
 def word_substituter(tweet_string)
   tweet_array = tweet_string.split
       tweet_array.map do |word|
-    if dictionary_hash.keys.include?(word)
-      word = dictionary_hash.values_at(word)
+    if dictionary.keys.include?(word)
+      word = dictionary.values_at(word)
     else
       word
   end
