@@ -1,3 +1,5 @@
+require 'pry'
+
 def dictionary
 
 dictionary_hash = {
@@ -13,6 +15,7 @@ dictionary_hash = {
     "and" => "&"}
 end
 
-def word_substituter(tweet)
-
+def word_substituter(tweet_string)
+  tweet_array = tweet_string.to_a
+  binding.pry
 end
